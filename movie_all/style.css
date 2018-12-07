@@ -1,0 +1,581 @@
+/********Label Styling*****************/
+.theme-label text{
+  font-family: roboto, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  text-anchor: middle;
+  fill: #707070;
+}
+
+.genre-label {
+  font-family: roboto, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 8px;
+  text-anchor: middle;
+  fill: #ffffff;
+}
+
+.theme text{
+  font-family: roboto, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 8px;
+  text-anchor: middle;
+  fill: #ffffff;
+}
+
+.y.axis .tick text{
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8px;
+  fill: #707070;
+}
+
+.y.axis .axis-label{
+  font-family: roboto, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  fill: #707070;
+}
+
+.x.axis .tick text{
+  font-family: roboto, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 8px;
+  fill: #ffffff;
+}
+
+.themesAxis .tick text {
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8px;
+  fill: #707070;
+}
+
+.themesAxis path{
+  stroke: #707070;
+}
+
+.themesAxis line{
+  stroke: #707070;
+}
+
+.sentimentAxis .tick text {
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8px;
+  fill: #707070;
+}
+
+.sentimentAxis path{
+  stroke: #707070;
+}
+
+.sentimentAxis line{
+  stroke: #707070;
+}
+
+.genderAxis .tick text {
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8px;
+  fill: #707070;
+}
+
+.genderAxis path{
+  stroke: #707070;
+}
+
+.genderAxis line{
+  stroke: #707070;
+}
+.decade-button{
+  fill:#364156;
+  width: 42px;
+  height: 19px;
+}
+
+/* Line Divider Style*/
+
+
+
+/* Titles*/
+
+.miniTitles {
+  font-family: komu-b, sans-serif;
+  font-style: normal;
+  font-size: 24px;
+  /*text-align: center;*/
+  fill: #364156;
+  color: #364156;
+  padding-left: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.colorDropdown {
+  font-family: komu-b, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  fill: #364156;
+  color: #364156;
+  padding-left: 100px;
+  vertical-align: top;
+  display: inline-block;
+  padding-top: 5px;
+}
+
+#findTitle{ 
+  font-family: komu-b, sans-serif;
+  font-style: normal;
+  font-size: 28px;
+  fill: #364156;
+  color: #364156;
+  vertical-align: top;
+  display: inline-block;
+}
+
+
+.movie-meta.title{
+  font-size: 24px;
+  font-family: komu-b, sans-serif;
+  fill: #364156;
+  color: #364156;
+}
+.movie-meta {
+  font-size: 16px;
+  font-family: komu-b, sans-serif;
+  fill: #364156;
+  color: #364156;
+}
+/*.movie-meta.rating {
+  font-size: 16px;
+  font-family: komu-b, sans-serif;
+  fill: #364156;
+  color: #364156;
+}*/
+.node-label {
+  font-family: roboto, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 20px;
+  fill: #707070;
+}
+.main-title {
+  font-size: 34px;
+  font-family: komu-a, sans-serif;
+  color: #364156;
+}
+
+#control-container {
+  padding: 20px 20px 10px 20px;
+}
+.character-name {
+  font-family: roboto, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  fill: #707070;
+}
+
+.scatter-titles text{
+  display: inline-block;
+}
+
+.scatter-titles{
+  display: inline-block;
+}
+
+/*Scatterplot Legend*/
+.legendScatter text{
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8px;
+  fill: #707070;
+}
+
+.legendOrdinal text{
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8px;
+  fill: #707070;
+}
+
+.legendThemes text{
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8px;
+    fill: #707070;
+  }
+/*************************************/
+
+
+/**** Styling for Selections/Hovers****/
+.tick-selected .decade-button{
+  fill:#9A9CA2;
+  width: 42px;
+  height: 19px;
+}
+
+.tick-hover .decade-button{
+  fill:#4C5A76;
+  width: 42px;
+  height: 19px;
+}
+
+circle.hidden {
+  fill: #ccc !important;
+  fill-opacity: .05;
+}
+
+circle:hover {
+  fill: #111 !important;
+  fill-opacity: 1;
+}
+
+.theme.hidden {
+  fill: #ccc !important;
+  fill-opacity: .3;
+}
+
+.genre-selected .decade-button{
+  fill:#9A9CA2;
+  width: 42px;
+  height: 19px; 
+}
+
+.genre-hover .decade-button{
+  fill:#4C5A76;
+  width: 42px;
+  height: 19px; 
+}
+
+#color-select {
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  fill: #707070;
+  text-transform: capitalize; 
+}
+
+/***************************************************/
+
+.axis,
+.frame {
+  shape-rendering: crispEdges;
+}
+
+.axis line {
+  stroke: #ddd;
+}
+
+.axis path {
+  display: none;
+}
+
+.axis .axis-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-anchor: middle;
+  fill: #555;
+}
+
+
+
+.frame {
+  fill: none;
+  stroke: #aaa;
+}
+
+circle {
+  fill-opacity: .85;
+}
+
+/*****************Overall View Styling END**********/
+
+/*******Detail View Styling BEGIN************************/
+
+
+/**********Detail View Styling END**********************/
+
+/***********Shared Styling BEGIN************************/
+
+.d3-tip {
+  line-height: 1;
+  padding: 6px;
+  background: rgba(240, 240, 240, 0.95);
+  color: #333;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  line-height: 1;
+  color: rgba(240, 240, 240, 0.95);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips specifically */
+.d3-tip.n:after {
+  margin: -2px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+.d3-tip h5{
+  font-size: 13px;
+  font-weight: 600;
+  margin: 2px 10px 4px 2px;
+}
+
+.d3-tip thead td {
+  border-bottom: 1px solid #ccc;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.d3-tip td {
+  padding: 2px 10px 2px 2px;
+}
+
+.d3-tip thead tr {
+  padding-top: 10px;
+}
+
+.wrapper {
+  display: flex;
+}
+/***********Shared Styling END**************************/
+
+body {
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+}
+
+/*label {
+    font-size: 13px;
+}*/
+
+
+.axis-label {
+    text-anchor: middle;
+    font-size: 12px;
+    font-weight: semibold;
+}
+
+
+
+
+.genderBar {
+	stroke-width: 1;
+	stroke: black;
+  stroke-opacity: 0.4;
+}
+.legendOrdinal {
+    font-size:12px;
+}
+.sentimentBar {
+    background: -webkit-linear-gradient(to right,blue, red); 
+}
+.themeBar {
+    opacity: 0.8;
+}
+rect.themeBar.hovered {
+    fill: #C5DAFC;
+}
+rect.themeBar.selected {
+    opacity:1;
+}
+rect.themeBar.filteredout {
+    opacity:0.4;
+}
+text.themeBar {
+    font-size:12px;
+}
+.genderBarText {
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:12px;
+    text-transform: capitalize;
+}
+.toolTip {
+      position: absolute;
+      display: none;
+      min-width: 80px;
+      height: auto;
+      background: none repeat scroll 0 0 #ffffff;
+      border: 1px solid #6F257F;
+      padding: 14px;
+      text-align: center;
+}
+
+
+.dot circle {
+    fill: #2381b3;
+    opacity: 0.8;
+}
+
+.dot text {
+    text-anchor: middle;
+    font-size: 10px;
+    pointer-events: none;
+    fill: #555;
+    opacity: 0;
+}
+
+.dot:hover text {
+    opacity: 1;
+}
+.male path {
+    stroke: #7e7e7e;
+    stroke-width: 1;
+}
+.female path {
+    stroke: #7e7e7e;
+    stroke-width: 1;
+}
+.male path:hover {
+    stroke:#6A51A3;
+    stroke-width: 3;
+}
+.female path:hover {
+    stroke:#6A51A3;
+    stroke-width: 3;
+}
+.cross-g line {
+    stroke: #7e7e7e;
+    stroke-width: 1;
+}
+.cross-g line:hover {
+    stroke:#6A51A3;
+    stroke-width: 3;
+}
+.link.themeFade {
+    stroke-width: 0;
+}
+.clink.themeFade {
+    stroke-width: 0;
+}
+
+/***************** Movie Detail CSS********************/
+.axis-label {
+  text-anchor: middle;
+  font-size: 12px;
+  font-weight: semibold;
+}
+
+body {
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+}
+
+
+
+
+.genderBar {
+stroke-width: 1;
+stroke: black;
+stroke-opacity: 0.4;
+}
+.legendOrdinal {
+  font-size:12px;
+}
+.sentimentBar {
+  background: -webkit-linear-gradient(to right,blue, red); 
+}
+.genderBarText {
+  font-size:12px;
+}
+.toolTip {
+    position: absolute;
+    display: none;
+    min-width: 80px;
+    height: auto;
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #6F257F;
+    padding: 14px;
+    text-align: center;
+}
+
+.dot circle {
+  fill: #2381b3;
+  opacity: 0.8;
+}
+
+.dot text {
+  text-anchor: middle;
+  font-size: 10px;
+  pointer-events: none;
+  fill: #555;
+  opacity: 0;
+}
+
+.dot:hover text {
+  opacity: 1;
+}
+.male path {
+  stroke: #7e7e7e;
+  stroke-width: 1.25;
+}
+.female path {
+  stroke: #7e7e7e;
+  stroke-width: 1.25;
+}
+.link.themeFade {
+  stroke-width: 0;
+}
+.cLink.themeFade {
+  stroke-width: 0;
+}
+.dialogue-tip {
+  width: 350px;
+  background: rgba(240, 240, 240, 0.95);
+  font-size: 12px;
+  padding: 10px 5px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.movie-meta {
+  font-family: komu-b, sans-serif;
+  font-size: 18px;
+}
+.title {
+  font-size: 24px
+}
+#main {
+  margin-bottom: 200px;
+}
+/*.theme-label {
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #707070;
+}*/
+.footnote {
+  font-family: roboto, sans-serif;
+  font-size: 10px;
+}
